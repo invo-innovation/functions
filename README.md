@@ -25,7 +25,7 @@ Create a local azure function from file new project in Visual Studio or VS Code
 > Tip: creating a new Functions project: https://docs.microsoft.com/en-us/azure/azure-functions/functions-develop-vs-code?tabs=csharp
 
 2. Add a HTTP trigger function that takes 2 numbers as parameters (either in body or URL your choice) and make the function return the result of adding both numbers together.
-3. instead of returning the results send the results (HTTP POST) to the following URL: [TODO NEW URL]
+3. instead of returning the results send the results (HTTP POST) to the following URL: https://webhook.site/a01b6c75-3bc8-4fbc-a0b3-630b4943f4a5
 
 ---
 ### Lab 3:
@@ -33,7 +33,7 @@ Create a local azure function from file new project in Visual Studio or VS Code
 Trigger on CosmosDB
 
 1. Add a new Azure Function that triggers on changes in the CosmosDB for each new record
-2. send the "name" property of each file added to CosmosDB to URL [TODO NEW URL]
+2. send the "name" property of each file added to CosmosDB to URL https://webhook.site/a01b6c75-3bc8-4fbc-a0b3-630b4943f4a5
 
 ---
 ### Lab 4:
